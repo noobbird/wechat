@@ -1,7 +1,7 @@
 #_*_coding: utf-8_*_
 from peewee import * 
 
-db = PostgresqlDatabase('netease', user='test',password='test',host='localhost')
+db = PostgresqlDatabase('netease', user='postgres',password='ptm9ygb',host='localhost')
 
 class Album(Model):
     aid = CharField()
